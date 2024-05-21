@@ -326,8 +326,8 @@ class @['OverlappingMarkerSpiderfier']
         strokeWeight: @['legWeight']
         zIndex: @['usualLegZIndex']
       marker['_omsData'] = 
-        usualPosition: marker.getPosition()
-        usualZIndex: marker.getZIndex()
+        usualPosition: marker.position
+        usualZIndex: marker.zIndex
         leg: leg
       unless @['legColors']['highlighted'][@map.mapTypeId] is
              @['legColors']['usual'][@map.mapTypeId]
