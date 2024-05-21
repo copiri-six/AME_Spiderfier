@@ -1,3 +1,11 @@
+h1. MAY 2024 :: Updates for AdvancedMarkerElement
+
+This repo is a fork of "ericberman/OverlappingMarkerSpiderfier":https://github.com/ericberman/OverlappingMarkerSpiderfier.  Its goal is to update to code so that it works with Google's new AdvancedMarkerElement.  Limited additional updates may be completed, but the bottom line is this: be the change you want to see in the world.  If you want an improvement, code it and submit a PR.
+
+Thanks for the help -- hopefully this is useful for you!
+
+---
+
 h1. Overlapping Marker Spiderfier for Google Maps API v3
 
 *Ever noticed how, in "Google Earth":http://earth.google.com, marker pins that overlap each other spring apart gracefully when you click them, so you can pick the one you wanted?*
