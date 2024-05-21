@@ -1,8 +1,10 @@
-h1. MAY 2024 :: Updates for AdvancedMarkerElement
+h1. MAY 2024 :: Updates for @AdvancedMarkerElement@
 
-This repo is a fork of "ericberman/OverlappingMarkerSpiderfier":https://github.com/ericberman/OverlappingMarkerSpiderfier.  Its goal is to update to code so that it works with Google's new AdvancedMarkerElement.  Limited additional updates may be completed, but the bottom line is this: be the change you want to see in the world.  If you want an improvement, code it and submit a PR.
+This repo is a fork of "@ericberman/OverlappingMarkerSpiderfier@":https://github.com/ericberman/OverlappingMarkerSpiderfier.  Its goal is to update to code so that it works with Google's new @AdvancedMarkerElement@.  Limited additional updates may be completed, but the bottom line is this: be the change you want to see in the world.  If you want an improvement, code it and submit a PR.
 
-Thanks for the help -- hopefully this is useful for you!
+If you want to use the code, look in the root directory: @oms.js@ and @oms.min.js@ are the compiled versions.  Download them and reference them in your scripts.  A hosted version may be added later.
+
+Hopefully this is useful for you, and thanks in advance for any improvements that you want to contribute!
 
 ---
 
