@@ -248,12 +248,12 @@ class @['OverlappingMarkerSpiderfier']
     mData = for m in @markers
       {pt: @llToPt(m['_omsData']?.usualPosition ? m.position), willSpiderfy: no}
     for m1, i1 in @markers
-      continue unless m1.getMap()? and @isVisibleMarker(m1)  # marker not visible: ignore
+      continue unless m1.map? and @isVisibleMarker(m1)  # marker not visible: ignore
       m1Data = mData[i1]
       continue if m1Data.willSpiderfy  # true in the case that we've assessed an earlier marker that was near this one
       for m2, i2 in @markers
         continue if i2 is i1  # markers cannot be near themselves: ignore
-        continue unless m2.getMap()? and @isVisibleMarker(m2)  # marker not visible: ignore
+        continue unless m2.map? and @isVisibleMarker(m2)  # marker not visible: ignore
         m2Data = mData[i2]
         continue if i2 < i1 and not m2Data.willSpiderfy  # if i2 < i1, m2 has already been checked for proximity to any other marker; 
                                                          # so if willSpiderfy is false, it cannot be near any other marker, including this one (m1)
